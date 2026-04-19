@@ -117,5 +117,126 @@ h1 {
 .sobre-paragrafo{
     text-align: center;
     font-size:1.4rem; 
-   
 }
+
+.projetos{
+    padding: 6rem 2rem;
+
+}
+
+.projetos-titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.projeto-card:hover{
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+    transform: translateY(-10px) scale(1.03);
+}
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projeto-card{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.caixa-textos-projeto{
+    padding: 1.5rem;
+}
+
+
+.paragrafo-projetos{
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+
+}
+.projeto-imagem{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+.info-projetos{
+    margin-bottom: 5px;
+}
+
+.contato{
+    padding: 6rem 2rem;
+}
+
+.contato-titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.formulario-contato{
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border: 1px solid var(--vidro);
+    border-radius: 16px;
+}
+.campo-form{
+    width: 100%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    color: var(--claro);
+    border: 1px solid var(--vidro);
+    outline: none;
+}
+
+.campo-form:focus{
+    border-color: var(--primaria);
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);
+}
+
+.grupo-form{
+    margin-bottom: 1.5rem;
+}
+
+.botao-form{
+    color: var(--claro);
+    background: linear-gradient(45deg, var(--primaria), var(--secundaria));
+    border: none;
+    padding: 1rem  2rem;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.5 ease; 
+    width: 100%;
+}
+
+.botao-form:hover{
+    background: linear-gradient(45deg, var(--secundaria), var(--primaria));
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+    transform: translateY(-4px);
+}
+
+.particulas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: 
+    radial-gradient(circle at 10% 20%, var(--primaria) 2px, transparent 20%),
+    radial-gradient(circle at 90% 80%, var(--secundaria) 2px, transparent 20%),
+    #000000;
+}
+
+
