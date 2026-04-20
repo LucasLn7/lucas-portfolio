@@ -30,6 +30,7 @@ body {
     z-index: 1000;
     top: 0;
     padding: 1.5rem;
+    backdrop-filter: blur(8px);
 }
 
 .menu-link {
@@ -85,7 +86,7 @@ body {
 h1 {
     font-size: 3.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #c4a3e9 10%, #635574 70%);
+    background: linear-gradient(135deg, #a4a0a8 10%, #b3a1ca 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
