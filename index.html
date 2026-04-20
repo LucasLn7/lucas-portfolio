@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website portifolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 <body>
@@ -31,6 +32,14 @@
         <img src="./img/imagem1.jpeg" class="foto-perfil">
         <h1> Lucas Lima </h1>
         <p class="cabecalho-sub-titulo"> Desenvolvedor full-stack</p>
+          <div class="social-midia-buttons hero-social">
+            <a href="https://github.com/LucasLn7" target="_blank" rel="noopener noreferrer" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-lima-bb0043246/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
     </main>
 
     <section id="sobre" class="sobre">
@@ -40,21 +49,22 @@
                 eficientes. Com experiência em diversas tecnologias, estou sempre buscando aprender e aprimorar minhas
                 habilidades para entregar projetos de alta qualidade.</p>
         </div>
+
     </section>
 
     <section id="projetos" class="projetos">
         <h2 class="projetos-titulo"> Meus Projetos</h2>
         <div class="projetos-caixa">
             <a href="https://github.com/LucasLn7/corinthians-fullstack-." target="_blank">
-            <div class="projeto-card">
-                <img src="./img/imagem2.jpeg" class="projeto-imagem" alt="Projeto 1">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos"> Landing Page do corinthians</h3>
-                    <p class="paragrafo-projetos">Projeto de uma landing page para o time de futebol Corinthians,
-                        utilizando
-                        HTML, CSS e JavaScript para criar uma experiência interativa e responsiva.</p>
+                <div class="projeto-card">
+                    <img src="./img/imagem2.jpeg" class="projeto-imagem" alt="Projeto 1">
+                    <div class="caixa-textos-projeto">
+                        <h3 class="info-projetos"> Landing Page do corinthians</h3>
+                        <p class="paragrafo-projetos">Projeto de uma landing page para o time de futebol Corinthians,
+                            utilizando
+                            HTML, CSS e JavaScript para criar uma experiência interativa e responsiva.</p>
+                    </div>
                 </div>
-            </div>
             </a>
         </div>
     </section>
@@ -63,14 +73,16 @@
         <h2 class="contato-titulo">Entre em Contato</h2>
         <form class="formulario-contato" id="formulario">
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
+                <textarea class="campo-form" placeholder="Digite sua mensagem" id="mensagem"></textarea>
             </div>
-            <button type="submit" class="botao-form">Enviar via WhatsApp</button>
+            <button type="submit" class="botao-form">
+                <i class="fab fa-whatsapp"></i>Enviar via WhatsApp</button>
         </form>
     </section>
+    <script src="js.js"></script>
 </body>
 
 </html>
