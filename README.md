@@ -16,7 +16,7 @@
 
 ## 🌐 Demo ao Vivo
 
-**👉 [lucasln7.github.io/Website-Portifolio](https://lucasln7.github.io/Website-Portifolio/)**
+**👉 [lucasln7.github.io/lucas-portfolio](https://lucasln7.github.io/lucas-portfolio/)**
 
 ---
 
